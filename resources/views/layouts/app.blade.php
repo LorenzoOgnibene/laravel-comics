@@ -18,8 +18,8 @@
         </header>
         <main>
             @include('partials.jumbo')
-            
-            @yield('film-cards')
+
+            @yield('film-cards')            
         </main>
     </body>
 </html>

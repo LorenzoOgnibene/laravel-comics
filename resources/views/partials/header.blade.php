@@ -36,8 +36,15 @@
     
 @endphp
 
+<link rel="stylesheet" href="{{ Vite::asset('resources/scss/partials/headerStyle.scss') }}">
+
+
+
 
 <header>
+    <div class="top-bar">
+
+    </div>
     <div class="wrapper">
         <div class="container">
             <div class="img-wrapper">
@@ -46,17 +53,16 @@
             <nav>
                 <ul>
                     @foreach ($navItem as $item)
-                    <li> {{ $item['text'] }} </li>
+                    <li><a href="#">{{ $item['text'] }}</a></li>
                     @endforeach
                 </ul>
             </nav>
+            <form action="">
+                <input class="" type="search" name="" id="" placeholder="Search">
+            </form>
         </div>
     </div>
 </header>
 
-<style lang="scss">
-    ul{
-        list-style-type: none; 
-    }
-</style>
+
 

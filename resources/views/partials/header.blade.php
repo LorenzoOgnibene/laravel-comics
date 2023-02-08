@@ -43,7 +43,6 @@
 
 <header>
     <div class="top-bar">
-
     </div>
     <div class="wrapper">
         <div class="container">

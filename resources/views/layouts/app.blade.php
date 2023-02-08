@@ -13,6 +13,13 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        @include('partials.header')
+        <header>
+            @include('partials.header')
+        </header>
+        <main>
+            @include('partials.jumbo')
+            
+            @yield('film-cards')
+        </main>
     </body>
 </html>
